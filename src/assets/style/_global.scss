@@ -1,0 +1,55 @@
+// Global style
+*{
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  margin: 0;
+  user-select: none;
+  outline: none;
+  letter-spacing: 0.6px;
+  box-sizing: border-box;
+}
+
+html{
+	background:	$bg--color;
+	color: $text--color;
+}
+
+.app--block{
+  min-height: 100vh;
+  max-width: 695px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+
+  .centered{
+    height: fit-content;
+    width: 100%;
+    margin: auto;
+  }
+
+}
+
+img{
+	pointer-events: none
+}
+
+button{
+  all: unset;
+  cursor: pointer;
+  transition: $transition;
+	font-size: 16px;
+}
+
+input[type="radio"]{
+	visibility:hidden;
+  position: fixed;
+  opacity: 0;
+}
+
+label{
+  cursor: pointer;
+}
+
+ul{
+	list-style-type: none;
+}

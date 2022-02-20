@@ -1,0 +1,29 @@
+// mixin
+@import "./mixin";
+
+// variables
+@import "./variables";
+
+// global
+@import "./global";
+
+// google fonts
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Quicksand:wght@400;500;600;700&display=swap');
+
+
+
+// header
+@import "./header";
+
+// footer
+@import "./footer";
+
+// book
+@import "./book_block";
+
+// modal
+@import "./modal_block";
+
+
+//media queries
+@import "./mediaqueries";

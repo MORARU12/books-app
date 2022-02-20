@@ -1,0 +1,23 @@
+footer{
+	margin: 50px 0;
+	text-align: center;
+	@include flex-column;
+
+	h1{
+		text-align: center;
+    height: fit-content;
+    font-weight: 600;
+    letter-spacing: 4px;
+    font-size: 14px;
+	}
+
+	p{
+		text-align: center;
+    height: fit-content;
+    font-weight: 600;
+    letter-spacing: 4px;
+    font-size: 13px;
+    margin-top: 10px;
+    color: $text--color-2;
+	}
+}

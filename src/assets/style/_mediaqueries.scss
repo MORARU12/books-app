@@ -1,0 +1,89 @@
+@media (hover: hover) and (pointer: fine) {
+
+	.cursor{
+		cursor: pointer;
+		transition: $transition;
+	}
+	
+	.cursor:active{
+		opacity: 0.6;
+	}
+
+	.pagination{
+
+		li{
+			cursor: pointer;
+		}
+
+		li:active{
+			opacity: 0.6;
+		}
+	}
+
+}
+
+
+@media only screen and (max-width: 720px) {
+	// Book 
+	.app--block{
+		max-width: 100%;
+    min-width: 100%;
+		padding: 0 5%;
+	}
+
+	.book--block img{
+		height: 30vw;
+	}
+
+
+	// Book Modal
+	.modal--block-content{
+		max-width: 100%;
+    min-width: 100%;
+		padding: 0 5%;
+		margin: 0;
+		background-color: transparent;
+	}
+
+	.bookshelves li{
+		background-color: #ffffffa1;
+	}
+
+	.book--block-modal{
+		padding-top: 5%;
+		margin-bottom: 5%;
+
+		img{
+			height: 58vw;
+			box-shadow: 0px 0px 40px #00000063;
+		}
+	}
+
+	.modal--block .close{
+		top: 4vw;
+	}
+
+}
+
+
+@media only screen and (max-width: 600px) {
+	// Book 
+	.book--block img{
+		height: 42vw;
+	}
+}
+
+
+@media only screen and (max-width: 480px) {
+	// Book 
+	.book--block {
+		h1{
+			font-size: 15px;
+		}
+
+		.book--block p{
+			font-size: 14px;
+		}
+	}
+}
+
