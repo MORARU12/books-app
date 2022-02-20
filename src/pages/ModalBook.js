@@ -47,9 +47,9 @@ export default function ModalBook() {
                     key={b.id}
                     item
                     xs={3}
-                    onClick={() => dispatch(getBookDetails(book.id))}
+                    onClick={() => dispatch(getBookDetails(b.id))}
                   >
-                    <div className="book--block book--block-latest">
+                    <div className="book--block book--block-latest cursor">
                       <img src={`${b.formats["image/jpeg"]}`} alt="" />
                       <h1>{b.title}</h1>
                       <p>{b.authors.map((author) => author.name)}</p>
